@@ -1,16 +1,22 @@
 import React from 'react'
 import styled from 'styled-components'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 
 export const Header = () => {
   return (
     <Navbar>
       <Logo>Dungeon</Logo>
       <RightNav>
-      <Home>home</Home>
-      <Download>download</Download>
-      <HTP>how to play</HTP>
-      <Lore>lore</Lore>
-      <Web>web</Web>
+      <Home><Link to="/">home</Link></Home>
+      <Download><Link to="download">download</Link></Download>
+      <HTP><Link to="how-to-play">how to play</Link></HTP>
+      <Lore><Link to="lore">lore</Link></Lore>
+      <Web><Link to="web">web</Link></Web>
       </RightNav>
     </Navbar>
   )
@@ -35,6 +41,15 @@ const RightNav = styled.div`
     font-size: 1rem;
     align-items: center;
 
+    a {
+      text-decoration: none;
+      color: #C5C5C5;
+    }
+
+    a:hover {
+      cursor: pointer;
+      color: #007880;
+
     @media (orientation: portrait) {
       flex-direction: column;
     }
@@ -44,36 +59,16 @@ const Logo = styled.div`
 `
 
 const Home = styled.div`
-    :hover {
-      cursor: pointer;
-      color: #007880;
-    }
 `
 
 const Download = styled.div`
-    :hover {
-      cursor: pointer;
-      color: #007880;
-    }
 `
 
 const HTP = styled.div`
-    :hover {
-      cursor: pointer;
-      color: #007880;
-    }
 `
 
 const Lore = styled.div`
-    :hover {
-      cursor: pointer;
-      color: #007880;
-    }
 `
 
 const Web = styled.div`
-    :hover {
-      cursor: pointer;
-      color: #007880;
-    }
 `
