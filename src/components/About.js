@@ -42,13 +42,17 @@ const SubContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+        @media (orientation: portrait) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
 `
 
 const List = styled.div`
     li {
         margin-top: 1rem;
     }
-
     span {
         color: #FDC57B;
     }
@@ -59,5 +63,11 @@ const Image = styled.div`
         height: 30rem;
         width: 30rem;
         border-radius: 10px;
+        @media (orientation: portrait) {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height:fit-content;
+        }
     }
 `

@@ -10,7 +10,7 @@ import {
 export const Header = () => {
   return (
     <Navbar>
-      <Logo>Dungeon</Logo>
+      <Logo><Link to="/">Dungeon</Link></Logo>
       <RightNav>
       <Home><Link to="/">home</Link></Home>
       <Download><Link to="download">download</Link></Download>
@@ -40,22 +40,23 @@ const RightNav = styled.div`
     font-weight: 700;
     font-size: 1rem;
     align-items: center;
-
+    @media (orientation: portrait) {
+      flex-direction: column;
+    }
     a {
       text-decoration: none;
       color: #C5C5C5;
     }
-
     a:hover {
       cursor: pointer;
       color: #007880;
-
-    @media (orientation: portrait) {
-      flex-direction: column;
-    }
 `
 
 const Logo = styled.div`
+    a {
+      text-decoration: none;
+      color: #d0021b;
+    }
 `
 
 const Home = styled.div`
