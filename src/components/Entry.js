@@ -4,10 +4,12 @@ import styled from 'styled-components'
 const Entry = (props) => {
   return (
     <Container>
-    {props.name}
-    <img src={props.img} />
+    <p class="name-props">{props.name}</p>
+    <img class="img-props" src={props.img} />
+    <div class="bottom-props">
     <p>{props.stats}</p>
     <p>{props.trait}</p>
+    </div>
     </Container>
   )
 }
