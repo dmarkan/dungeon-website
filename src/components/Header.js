@@ -16,7 +16,6 @@ export const Header = () => {
       <Download><Link to="download">download</Link></Download>
       <HTP><Link to="how-to-play">how to play</Link></HTP>
       <Lore><Link to="lore">lore</Link></Lore>
-      <Web><Link to="web">web</Link></Web>
       </RightNav>
     </Navbar>
   )
@@ -69,7 +68,4 @@ const HTP = styled.div`
 `
 
 const Lore = styled.div`
-`
-
-const Web = styled.div`
 `

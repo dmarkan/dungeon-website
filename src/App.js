@@ -4,7 +4,6 @@ import About from './components/About';
 import Download from './components/Download';
 import HowToPlay from './components/HowToPlay';
 import Lore from './components/Lore';
-import Web from './components/Web';
 import {
   BrowserRouter as Router,
   Routes,
@@ -22,7 +21,6 @@ function App() {
         <Route path="download" element={<Download />} />
         <Route path="how-to-play" element={<HowToPlay />} />
         <Route path="lore" element={<Lore />} />
-        <Route path="web" element={<Web />} />
       </Routes>
       </Router>
     </div>
