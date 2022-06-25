@@ -47,7 +47,98 @@ const characters = [
                             imgSrc: "images/druid.jpg",
                             stats: "15AC/16HP/8AT/1DMG",
                             trait: "All enemies are animals"
-                            }
+                            },
+                            {
+                                id: 8,
+                                name: "Bat",
+                                imgSrc: "images/bat.jpg",
+                                stats: "13AC/2HP/7AT/1DMG",
+                                trait: "Tiny beast. Hunts at night"
+                                },
+                                {
+                                    id: 9,
+                                    name: "Bear",
+                                    imgSrc: "images/bear.jpg",
+                                    stats: "16AC/2HP/8AT/1DMG",
+                                    trait: "Large beast. Hard to hit"
+                                    },
+                                    {
+                                        id: 10,
+                                        name: "Eagle",
+                                        imgSrc: "images/eagle.jpg",
+                                        stats: "14AC/2HP/10AT/1DMG",
+                                        trait: "Large beast. Love the heights"
+                                        },
+                                        {
+                                            id: 11,
+                                            name: "Ghost",
+                                            imgSrc: "images/ghost.jpg",
+                                            stats: "15AC/2HP/9AT/1DMG",
+                                            trait: "Medium undead. Hard to see"
+                                            },
+                                            {
+                                                id: 12,
+                                                name: "Goblin",
+                                                imgSrc: "images/goblin.jpg",
+                                                stats: "14AC/2HP/8AT/1DMG",
+                                                trait: "Small humanoid. Ugly face"
+                                                },
+                                                {
+                                                    id: 13,
+                                                    name: "Mummy",
+                                                    imgSrc: "images/mummy.jpg",
+                                                    stats: "15AC/2HP/8AT/1DMG",
+                                                    trait: "Medium undead. Back from the dead"
+                                                    },
+                                                    {
+                                                        id: 14,
+                                                        name: "Spider",
+                                                        imgSrc: "images/spider.jpg",
+                                                        stats: "13AC/2HP/9AT/1DMG",
+                                                        trait: "Tiny beast. Many eyes"
+                                                        },
+                                                        {
+                                                            id: 15,
+                                                            name: "Vampire",
+                                                            imgSrc: "images/vampire.jpg",
+                                                            stats: "16AC/2HP/9AT/1DMG",
+                                                            trait: "Shapechanger. Feeds on blood"
+                                                            },
+                                                            {
+                                                                id: 16,
+                                                                name: "Ogre",
+                                                                imgSrc: "images/ogre.jpg",
+                                                                stats: "14AC/2HP/14AT/1DMG",
+                                                                trait: "Large giant. Hard hitter"
+                                                                },
+                                                                {
+                                                                    id: 17,
+                                                                    name: "Orc",
+                                                                    imgSrc: "images/orc.jpg",
+                                                                    stats: "15AC/2HP/10AT/1DMG",
+                                                                    trait: "Medium humanoid. Low intelligence"
+                                                                    },
+                                                                    {
+                                                                        id: 18,
+                                                                        name: "Troll",
+                                                                        imgSrc: "images/troll.jpg",
+                                                                        stats: "18AC/2HP/6AT/1DMG",
+                                                                        trait: "Large giant. Clumsy"
+                                                                        },
+                                                                        {
+                                                                            id: 19,
+                                                                            name: "Wyvern",
+                                                                            imgSrc: "images/wyvern.jpg",
+                                                                            stats: "13AC/2HP/16AT/1DMG",
+                                                                            trait: "Large dragon. Attack from the sky"
+                                                                            },
+                                                                            {
+                                                                                id: 20,
+                                                                                name: "Zombie",
+                                                                                imgSrc: "images/zombie.jpg",
+                                                                                stats: "11AC/2HP/12AT/1DMG",
+                                                                                trait: "Medium undead. Won't be resurrected again"
+                                                                                }
 ]
 
 export default characters
