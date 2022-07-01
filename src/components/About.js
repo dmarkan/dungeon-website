@@ -17,7 +17,7 @@ function About() {
                 <li><span>Defeat</span> Boss</li>
             </ul>
         </List>
-        <Image><img src="images/about-img.jpg" alt="about-img" /></Image>
+        <Image><img src="images/druid.jpg" alt="about-img" /></Image>
     </SubContainer>
     </Container>
   )
